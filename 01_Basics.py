@@ -46,3 +46,9 @@ print(dicionario['key'])
 for k,v in dicionario.items():
     print(k + ' ' + v)
 
+# String formating
+print('Hello %s' % ('Ana'))
+print('Hello {}'.format('Bob'))
+
+
+
