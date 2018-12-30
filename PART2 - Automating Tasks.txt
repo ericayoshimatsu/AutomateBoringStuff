@@ -8,3 +8,22 @@
 
 ====   Launching Python Programs   ====
 
+On the first line of python script:
+	include a shebang (for windows)
+	
+	#! python3 	
+
+To run the script enter on windows CMD prompt
+	py c:\path\script.py
+
+or use a batch file
+	
+	@py c:\path\script.py %*
+	@pause
+	
+	*pyw for an execution without opening a cmd window
+	
+Command Line options - sys.argv
+	
+	
+====   Regular Expressions   ====
